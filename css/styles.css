@@ -1,0 +1,289 @@
+:root {
+  --blue-text-color: #2196f3;
+  --title-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --primary-text-color: #757575;
+  --support-text-color: rgba(255, 255, 255, 0.6);
+  --color-four-section: #f5f4fa;
+  --background-color-footer: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--title-text-color);
+  font-style: normal;
+}
+
+/* Шапка сторінки studio */
+
+.page-header {
+  background-color: var(--secondary-text-color);
+}
+
+.page-header .webstudio,
+.page-footer .webstudio {
+  color: var(--title-text-color);
+  font-family: "Raleway", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.page-header .webstudio-color,
+.page-footer .webstudio-color {
+  color: var(--blue-text-color);
+}
+
+.page-header .header-list {
+  list-style: none;
+}
+
+.header-list .item {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-list .item:hover,
+.header-list .item:focus {
+  color: var(--blue-text-color);
+}
+
+.page-header .header-right {
+  list-style: none;
+}
+
+.page-header .current {
+  color: rgb(89, 118, 199);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.page-header .header-tel {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.page-header .header-tel:hover,
+.page-header .header-tel:focus,
+.page-footer .footer-tel:hover,
+.page-footer .footer-tel:focus {
+  color: var(--blue-text-color);
+}
+
+/* Унікальність сторінки studio*/
+
+.first-section .title {
+  color: var(--secondary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+.first-section .btn {
+  color: var(--secondary-text-color);
+  background-color: var(--blue-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.first-section .btn:hover,
+.first-section .btn:focus {
+  color: var(--blue-text-color);
+  background-color: var(--secondary-text-color);
+}
+
+.second-section {
+  background-color: var(--secondary-text-color);
+}
+
+.second-list {
+  list-style: none;
+}
+
+.second-section .title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.second-section .text {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.third-section .third-list {
+  list-style: none;
+}
+
+.third-section .our-work-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.four-section {
+  background-color: var(--color-four-section);
+}
+.four-section .team {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.four-list {
+  list-style: none;
+}
+
+.four-list .title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.four-list .text {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Підвал сторінки studio*/
+
+.page-footer {
+  background-color: var(--background-color-footer);
+}
+
+.page-footer .webstudio {
+  color: var(--secondary-text-color);
+}
+
+.page-footer .street {
+  color: var(--secondary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Шапка сторінки portfolio */
+
+/* Унікальність сторінки portfolio */
+
+.first-section-portfolio .first-list {
+  list-style: none;
+}
+.first-section-portfolio .btn {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.first-section-portfolio .btn:hover,
+.first-section-portfolio .btn:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--blue-text-color);
+}
+
+.first-section-portfolio .second-list-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.first-section-portfolio .text {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Підвал сторінки portfolio*/
+.page-footer .footer-tel {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
