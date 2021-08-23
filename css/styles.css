@@ -102,6 +102,8 @@ body {
 .header-nav .webstudio {
   display: block;
   margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-list {
@@ -109,6 +111,12 @@ body {
   padding-left: 93px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.header-list .item {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header .header-style {
@@ -133,6 +141,12 @@ body {
   margin-right: 50px;
 }
 
+.tel-style .header-tel {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .tel-style:last-child {
   margin-right: 0;
 }
@@ -140,8 +154,6 @@ body {
 .header {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
   width: 1170px;
   /* height: 80px; */
   outline: 2px solid tomato;
@@ -177,10 +189,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   position: absolute;
-  width: 200px;
+  min-width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .pointer {
