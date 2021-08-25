@@ -26,6 +26,7 @@ body {
 
 .page-header {
   background-color: var(--secondary-text-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header .webstudio,
@@ -219,8 +220,10 @@ body {
 
 .second-section {
   background-color: var(--secondary-text-color);
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .second-list-item {
@@ -247,6 +250,7 @@ body {
   margin-bottom: 0px;
   padding-left: 0px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .second-section .title {
@@ -279,7 +283,7 @@ body {
 }
 
 .third-section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .third-section .our-work-title {
@@ -312,6 +316,8 @@ body {
 .four-section {
   background-color: var(--color-four-section);
   margin-bottom: 0px;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .four-section .team {
@@ -325,7 +331,6 @@ body {
   letter-spacing: 0.03em;
 
   display: block;
-  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
   margin-right: 0;
@@ -338,7 +343,6 @@ body {
   margin-bottom: 0px;
   padding-left: 0px;
   display: flex;
-  padding-bottom: 94px;
 }
 
 .four-list-item {
@@ -538,16 +542,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.first-section-portfolio .second-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .first-section-portfolio .second-list-element {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .first-section-portfolio .second-list-element:nth-child(3n) {
@@ -580,7 +579,25 @@ body {
 }
 
 /* Підвал сторінки portfolio*/
+
 .page-footer .footer-tel {
   color: var(--primary-text-color);
   text-decoration: none;
+}
+
+.page-footer-portfolio .webstudio {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.page-footer-portfolio .footer-tel {
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.page-footer-portfolio .footer-tel-two {
+  margin-bottom: 60px;
 }
