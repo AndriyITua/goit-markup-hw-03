@@ -153,6 +153,11 @@ body {
 
 /* Унікальність сторінки studio*/
 
+.first-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .first-section .title {
   color: var(--secondary-text-color);
   font-family: "Roboto";
@@ -165,10 +170,11 @@ body {
   width: 696px;
 
   display: inline-block;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   margin-bottom: 30px;
   margin-left: 237px;
   margin-right: 237px;
+  margin-top: 0;
 }
 
 .first-section .btn {
@@ -179,20 +185,15 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  /* align-items: center; */
   text-align: center;
   letter-spacing: 0.06em;
-  /* position: absolute; */
   min-width: 200px;
-  /* height: 50px;
-  left: 700px;
-  top: 430px; */
 
   display: inline-block;
   border-radius: 4px;
   padding: 10px;
   margin-top: 0px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   margin-left: 485px;
   margin-right: 485px;
 }
@@ -480,10 +481,19 @@ body {
 
 .first-section-portfolio .first-list {
   list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .first-section-portfolio .btn {
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -491,6 +501,12 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+
+  display: flex;
+  padding: 6px 22px;
+  margin: 0px;
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
 }
 
 .pointer {
@@ -520,6 +536,47 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.first-section-portfolio .second-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-section-portfolio .second-list-element {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+}
+
+.first-section-portfolio .second-list-element:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.first-section-portfolio .second-list-img {
+  margin-bottom: 20px;
+}
+
+.first-section-portfolio .second-list-title {
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.first-section-portfolio .text {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.first-section-portfolio .btn-portfolio {
+  display: flex;
+  padding: 0;
+  margin-top: 0px;
+  margin-right: 8px;
+}
+
+.first-section-portfolio .btn-portfolio:nth-child(5n) {
+  margin-right: 0;
 }
 
 /* Підвал сторінки portfolio*/
